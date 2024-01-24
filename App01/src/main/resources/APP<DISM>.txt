@@ -1,0 +1,16 @@
+Estructura de trabajo Aplicativo Mi Mutual
+
+APP<DISM>
+-------------
+pkg.Negocio
+    EntidadesNegocio
+    Reglas (especificación)
+pkg.Aplicacion
+    HU
+    Entradas/Salidas
+pkg.Entradas/Salidas
+    EsquedamosDatos
+    Adaptadores
+    Librerias a tecnologias (SQL, BUS, BPM....)
+pkg.Servicios/API
+--------------
