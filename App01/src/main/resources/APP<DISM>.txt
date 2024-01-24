@@ -6,11 +6,20 @@ pkg.Negocio
     EntidadesNegocio
     Reglas (especificación)
 pkg.Aplicacion
-    HU
-    Entradas/Salidas
+    HU (pkg usecases)
+    Entradas/Salidas (pkg ports)
 pkg.Entradas/Salidas
     EsquedamosDatos
-    Adaptadores
+    Adaptadores --> pantallaAngular/REST 
     Librerias a tecnologias (SQL, BUS, BPM....)
 pkg.Servicios/API
 --------------
+
+
+Desarrollo:
+1. EntidadesNegocio
+2. Interfaz CU / implemenación CU
+3. Especificacione (reglas)
+4. Modelos Entradas
+5. Adaptadores (REST, BDD)
+

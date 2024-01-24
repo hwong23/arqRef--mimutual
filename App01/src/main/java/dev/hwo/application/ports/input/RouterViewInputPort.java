@@ -19,5 +19,6 @@ public class RouterViewInputPort implements RouterViewUseCase {
     public List<Router> getRouters(Predicate<Router> filter) {
         var routers = routerListOutputPort.fetchRouters();
         return Router.retrieveRouter(routers, filter);
+
     }
 }
