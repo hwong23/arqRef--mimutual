@@ -18,7 +18,7 @@ pkg.Servicios/API
 
 Desarrollo:
 1. EntidadesNegocio
-2. Interfaz CU / implemenación CU
+2. Interfaz CU / implementación CU
 3. Especificaciones (reglas)
 4. Modelos Entradas
 5. Adaptadores (REST, BDD)
